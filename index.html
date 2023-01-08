@@ -1,20 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <button id="boutton mode">-ˋˏ ༻Mes dessins༺ ˎˊ- (Une personne se cache dèrrière ces dessins , sauriez vous la reconnaitre ?)</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel ="stylesheet" href="style.css"></link>
-</head>
-<body>
-    <h1>Coucou Jade</h1>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    
+    <head>
+      <style>
+        .fire {
+          color: #000000;
+          font-size: 48px;
+          font-weight: bold;
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          text-transform: uppercase;
+          animation: flicker 5s infinite;
+        }
+        
+        @keyframes flicker {
+          0%   { opacity:1; }
+          50%  { opacity:0; }
+          100% { opacity:1; }
+        }
+      </style>
+    </head>
+    <body>
+      <h1 class="fire">✦₊Bienvenue sur mon Portfolio₊✦</h1>
+    </body>
+    
+    <main>
+      <section>
+<div class="container">
+  <div id="card0" class="cards"></div>
+  <div id="card1" class="cards"></div>
+  <div id="card2" class="cards"></div>
+  <div id="card3" class="cards"></div>
+  <div id="card4" class="cards"></div>
+  <div id="card5" class="cards"></div>
+  <div id="card6" class="cards"></div>
+  <div id="card7" class="cards"></div>
+</div>
+      </section>
+    </main>
 
-    <button id="button" >Change color</button>
 
-    <button> Ajout de film</button>
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+      }
+    
+      img {
+        height: 90%;
+        width: 30%;
+      }
+    </style>
+    
+    <div class="grid">
+      <section class="section section-image">
+        <img src="images/moi.jpg" >
+      </section>
+      <p>Bonjour , je m'apelle Clarisse . Je suis étuciante en première année à l'IIM. J'adore dessiner et je decouvre actuellement une nouvelle passions qui est la 3d :)</p>
+    </div>
 
+    <section class="section section-2">
+      <button class="btn-demo">Mes projets au sien de l'IIM </button>
+    </section>
+    
+    <section class="section section-1 section-2" id="3D">
+      <p>
+         Axe 3D
+      </p>
+    </section>
+    
+    <section class="section section-3 section-2">
+      <p>
+          Pendant la 1er semaine de 3d nous avons du réaliser un lumière et une scene . Pour la scene , nous avions comme consigne de mettre un coffre , l'épée et le bouclier de Link , des fioles , une table et un tabouret/chaise. 
+      </p>
+    </section>
 
-    <script src="script.js"></script>
+    <section class="section section-image section-2">
+      <img src="images/scene 3d.png" alt="">
+      <img src="images/lumière.png" alt="">
+    </section>
+
+    <section class="section section-1 section-2" id="JV">
+      <p>
+         Axe JV (jeux-videos)
+      </p>
+    </section>
+
+    <section class="section section-3 section-2">
+      <p>
+         Pendant la première semaine , nous devions crée un jeu et faire une diapo avec les différents aspect comme le benchmark , la map , son idée etc..
+      </p>
+    </section>
+    
+      <section class="section section-2 section-cards-flex">
+      <div class="card">
+        <img class='card-image' src="images/heroine.png" alt="">
+        <div class="card-content">
+          <h3> Heroine </h3>
+          <p>Elle se nomme Thais , l'héroine du jeu </p>
+        </div>
+      </div>
+      <div class="card">
+        <img class='card-image' src="images/mechant.png" alt="">
+        <div class="card-content">
+          <h3> Ennemi</h3>
+          <p>Il se nomme Alfred , il est le boss du jeu </p>
+        </div>
+      </div>
+      <div class="card">
+        <img class='card-image' src="images/interface.png" alt="">
+        <div class="card-content">
+          <h3> Interface</h3>
+          <p>C'est un essai de comment le joueur pour voir/l'interface </p>
+        </div>
+      </div>
+      <div class="card">
+          <img class='card-image' src="images/plateau.png" alt="">
+          <div class="card-content">
+            <h3> Map</h3>
+            <p>C'est un essai de map (du stage 1 qui permettrai d'apprendre les differents objets et mode de jeu )</p>
+          </div>
+        </div>
+    </section>
+
+    <section class="section section-6 section-2">
+      <img src="images/logo.png" alt="">
+    </section>
+
+    <section class="section section-1 section-2" id="Crea">
+      <p>
+         Axe Créa
+      </p>
+    </section>
+
+    <section class="section section-3 section-2">
+      <p>
+         Pour la première semaine de créa-design , nous avons du réaliser une converture d'album pour un groupe (dans mon cas , se fut Les Ritas Mitsoukos)
+      </p>
+    </section>
+    
+    <section class="section section-image section-2">
+      <img src="images/groupe.png" alt="">
+      <p> <--Avant..............Apres--> </p>
+      <img src="images/apres.png" alt="">
+    </section>
+  </div>
+
+  <footer>
+    <nav class="footer">
+      <p>Merci d'avoir regardé :) </p>
+  </footer>
+ </div>
 </body>
+
 </html>

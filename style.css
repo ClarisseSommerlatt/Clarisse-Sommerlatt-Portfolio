@@ -1,9 +1,63 @@
-.light {
-    background-color: white;
-    color: black;
+@import url('nav-bar.css');
+@import url('boutons.css');
+@import url('footter.css');
+@import url('section.css');
+
+html,
+body {
+    height: 100vh;
+    font-family: 'Dosis', sans-serif;
+    background-color: #ffb5b5;
 }
 
-.dark {
-    background-color: black;
-    color: white;
+/* Mise en page */
+.container {
+  display: flex;
+}
+
+.cards {
+  width: 250px;
+  height: 250px;
+  transform: translateY(300px);
+/*   transform: translateY(0px); */
+  transition: transform 0.5s ease;
+}
+
+/* couleur de mes cards */
+#card0 {
+ background-image: url('images/dessin1.jpg');
+}
+
+#card1 {
+  background-image: url('images/dessin2.jpg');
+}
+
+#card2 {
+  background-image: url('images/dessin3.jpg');
+}
+
+#card3 {
+  background-image: url('images/dessins.png');
+}
+
+#card4 {
+  background-image: url('images/dessin4.jpg');
+}
+
+#card5 {
+  background-image: url('images/dessin5.jpg');
+}
+
+#card6 {
+  background-image: url('images/dessin6.jpg');
+}
+
+#card4 {
+  background-image: url('images/dessin7.jpg');
+}
+
+/* Etat qui vient écraser le premier lorsque le container obtient la classe active */
+
+.active {
+  transform: translateY(0px);
 }

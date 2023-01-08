@@ -1,0 +1,33 @@
+.btn-demo {
+    background-color: #fc8c8c;
+    border-radius: 9999990px;
+    border: none;
+    padding: 10px 20px;
+    color: #742828;
+    height: 100px;
+}
+
+.btn-millieu {
+    background-color: #727272;
+    border-radius: 9999990px;
+    border: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+.btn-gauche {
+    background-color: rgb(252, 147, 187);
+    border-radius: 0px;
+    border: none;
+    padding: 10px 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.btn-droite {
+    background-color: rgb(123, 113, 255);
+    border-radius: 0px;
+    border: none;
+    padding: 10px 20px;
+    color: hsl(0, 0%, 100%);
+}
